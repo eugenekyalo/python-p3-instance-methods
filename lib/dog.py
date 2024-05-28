@@ -1,7 +1,8 @@
-#!/usr/bin/env python3
-
 class Dog:
-    # Class body goes here
+    def bark(self):
+        print("Woof!")
 
-    #Instance method definition
-    pass
+    def sit(self):  # Assuming this is your method from Task 1
+        print("The dog is sitting.")
+
+    # Add any other methods here (all indented)
